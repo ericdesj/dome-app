@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   get '/demo', to: 'static_pages#demo'
   # get '/ct/demo', to: 'cities#demo'
 
+
 end

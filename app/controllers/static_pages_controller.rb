@@ -4,6 +4,6 @@ class StaticPagesController < ApplicationController
   end
 
   def demo
-    render json: demoJson
+    render html: demoJson
   end
 end
