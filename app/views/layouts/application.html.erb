@@ -7,14 +7,7 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <%= link_to "Dome App", root_path, :class => "navbar-brand" %>
-      <ul class="nav navbar-nav">
-        <li><%= link_to "Home", root_path %></li>
-      </ul>
-    </div>
-  </nav>
+  <%= render 'layouts/navabar' %>
   <body class="container">
     <%= yield %>
   </body>
