@@ -14,8 +14,11 @@ $ rails db:migrate  # Migrate the db
 $ rails serve       # Start the application server
 ```
 
-### Project Informations
+### Project Hosting
 
+Project is hosted on Heroku and is available at this link <https://dome-app.herokuapp.com/>
+
+### Project Informations
 
 ![Dome FLowchart](https://dome-app.herokuapp.com/assets/dome_flowchart-9de4d2e44d505b383ed1ea2104ba480f92974d71dc07a115bac4f74755b23992.png "Dome Project")
 
